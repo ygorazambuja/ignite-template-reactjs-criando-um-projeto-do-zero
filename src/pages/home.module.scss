@@ -1,1 +1,34 @@
 // TODO
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.postTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--heading);
+}
+
+.postSubtitle {
+  font-size: 18px;
+  color: var(--body);
+  margin-bottom: 1rem;
+}
+
+.postFooter {
+  display: flex;
+  color: var(--info);
+}
+
+.highlight {
+  color: var(--highlight);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

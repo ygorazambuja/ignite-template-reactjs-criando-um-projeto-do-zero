@@ -1,1 +1,27 @@
 // TODO
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.postData {
+  color: var(--info);
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+
+  svg {
+    margin-right: 6px;
+  }
+}
+
+.postAuthor {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 6px;
+  }
+}
